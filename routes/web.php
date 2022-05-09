@@ -72,3 +72,9 @@ Route::get('paises', function(){
     //mostrar vista de paises
     return view("paises")->with("paises" , $paises );
 });
+
+//Ruta para vista "Prueba"
+
+Route::get('prueba',function(){
+    return view('productos.create');
+});
