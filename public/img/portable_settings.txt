@@ -1,0 +1,93 @@
+ColWidths_connform.ListSessions<|||>1<|||>163,50,50,50,50,50,10
+ColsVisible_connform.ListSessions<|||>1<|||>0,1,4,6
+ColPositions_connform.ListSessions<|||>1<|||>0,1,2,3,4,5,6
+ColSort_connform.ListSessions<|||>1<|||>0,0
+MainWinOnMonitor<|||>3<|||>0
+ColWidths_MainForm.ListDatabases<|||>1<|||>150,80,50,50,50,50,50,50,50,50,120
+ColsVisible_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColPositions_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColSort_MainForm.ListDatabases<|||>1<|||>0,0
+ColWidths_MainForm.ListVariables<|||>1<|||>160,200,428
+ColsVisible_MainForm.ListVariables<|||>1<|||>0,1,2
+ColPositions_MainForm.ListVariables<|||>1<|||>0,1,2
+ColSort_MainForm.ListVariables<|||>1<|||>0,0
+ColWidths_MainForm.ListStatus<|||>1<|||>160,428,100,100
+ColsVisible_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColPositions_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColSort_MainForm.ListStatus<|||>1<|||>0,0
+ColWidths_MainForm.ListProcesses<|||>1<|||>70,80,80,80,80,50,50,154
+ColsVisible_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColPositions_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColSort_MainForm.ListProcesses<|||>1<|||>0,1
+ColWidths_MainForm.ListCommandStats<|||>1<|||>120,100,100,100,368
+ColsVisible_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColPositions_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColSort_MainForm.ListCommandStats<|||>1<|||>1,1
+ColWidths_MainForm.ListTables<|||>1<|||>120,70,70,120,120,70,100,50,70,70,70,70,70,90,120,70,70,70,50
+ColsVisible_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,18
+ColPositions_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
+ColSort_MainForm.ListTables<|||>1<|||>0,0
+LastSessions<|||>1<|||>Don Pedro
+LastActiveSession<|||>1<|||>Don Pedro
+ColWidths_frmTableEditor.listColumns<|||>1<|||>60,100,154,90,98,124,50,117,130,140,100,100
+ColsVisible_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColPositions_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColSort_frmTableEditor.listColumns<|||>1<|||>-1,0
+ColWidths_frmTableEditor.treeIndexes<|||>1<|||>434,100,80
+ColsVisible_frmTableEditor.treeIndexes<|||>1<|||>0,1,2
+ColPositions_frmTableEditor.treeIndexes<|||>1<|||>0,1,2
+ColSort_frmTableEditor.treeIndexes<|||>1<|||>-1,0
+ColWidths_frmTableEditor.listForeignKeys<|||>1<|||>200,80,100,80,80,80
+ColsVisible_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColPositions_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColSort_frmTableEditor.listForeignKeys<|||>1<|||>-1,0
+ColWidths_frmTableEditor.listCheckConstraints<|||>1<|||>200,420
+ColsVisible_frmTableEditor.listCheckConstraints<|||>1<|||>0,1
+ColPositions_frmTableEditor.listCheckConstraints<|||>1<|||>0,1
+ColSort_frmTableEditor.listCheckConstraints<|||>1<|||>-1,0
+CreateDbCollation<|||>1<|||>utf8mb4_general_ci
+ExportSQL_Filenames<|||>1<|||>C:\Users\sena\Downloads\disquera.sql<{{{><}}}>
+SessionManager_WindowLeft<|||>3<|||>584
+SessionManager_WindowTop<|||>3<|||>194
+MainWinMaximized<|||>3<|||>1
+Servers\Don Pedro\SessionCreated<|||>1<|||>2022-04-27 07:36:13
+Servers\Don Pedro\Host<|||>1<|||>127.0.0.1
+Servers\Don Pedro\WindowsAuth<|||>3<|||>0
+Servers\Don Pedro\CleartextPluginEnabled<|||>3<|||>0
+Servers\Don Pedro\User<|||>1<|||>root
+Servers\Don Pedro\Password<|||>1<|||>6
+Servers\Don Pedro\LoginPrompt<|||>3<|||>0
+Servers\Don Pedro\Port<|||>1<|||>3308
+Servers\Don Pedro\NetType<|||>3<|||>0
+Servers\Don Pedro\Compressed<|||>3<|||>0
+Servers\Don Pedro\LocalTimeZone<|||>3<|||>0
+Servers\Don Pedro\QueryTimeout<|||>3<|||>30
+Servers\Don Pedro\KeepAlive<|||>3<|||>20
+Servers\Don Pedro\FullTableStatus<|||>3<|||>1
+Servers\Don Pedro\Databases<|||>1<|||>
+Servers\Don Pedro\Library<|||>1<|||>libmariadb.dll
+Servers\Don Pedro\Comment<|||>1<|||>
+Servers\Don Pedro\StartupScriptFilename<|||>1<|||>
+Servers\Don Pedro\TreeBackground<|||>3<|||>536870911
+Servers\Don Pedro\SSHtunnelHost<|||>1<|||>
+Servers\Don Pedro\SSHtunnelHostPort<|||>3<|||>22
+Servers\Don Pedro\SSHtunnelUser<|||>1<|||>
+Servers\Don Pedro\SSHtunnelPassword<|||>1<|||>7
+Servers\Don Pedro\SSHtunnelTimeout<|||>3<|||>4
+Servers\Don Pedro\SSHtunnelPrivateKey<|||>1<|||>
+Servers\Don Pedro\SSHtunnelPort<|||>3<|||>3307
+Servers\Don Pedro\SSL_Active<|||>3<|||>0
+Servers\Don Pedro\SSL_Key<|||>1<|||>
+Servers\Don Pedro\SSL_Cert<|||>1<|||>
+Servers\Don Pedro\SSL_CA<|||>1<|||>
+Servers\Don Pedro\SSL_Cipher<|||>1<|||>
+Servers\Don Pedro\IgnoreDatabasePattern<|||>1<|||>
+Servers\Don Pedro\LogFileDdl<|||>3<|||>0
+Servers\Don Pedro\LogFileDml<|||>3<|||>0
+Servers\Don Pedro\LogFilePath<|||>1<|||>C:\Users\sena\AppData\Roaming\HeidiSQL\Logs\%session\%db\%y%m%d.sql
+Servers\Don Pedro\RefusedCount<|||>3<|||>15
+Servers\Don Pedro\ServerVersionFull<|||>1<|||>10.4.24-MariaDB - mariadb.org binary distribution
+Servers\Don Pedro\ConnectCount<|||>3<|||>21
+Servers\Don Pedro\ServerVersion<|||>3<|||>100424
+Servers\Don Pedro\LastConnect<|||>1<|||>2022-06-13 13:44:29
+Servers\Don Pedro\lastUsedDB<|||>1<|||>latiendaphp1

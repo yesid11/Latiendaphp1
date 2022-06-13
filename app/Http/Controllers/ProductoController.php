@@ -6,7 +6,7 @@ use App\Models\Producto;
 use App\Models\Categorias;
 use App\Models\Marca;
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\Validator; 
 class ProductoController extends Controller
 {
     /**
@@ -46,18 +46,58 @@ class ProductoController extends Controller
      */
     public function store(Request $request)
     {
-       //Crear nuevo producto
+        //validaciones 
+        //establecer reglas de validación
+
+        $reglas=[
+            "nombre" => 'required|alpha|unique:productos,nombre',
+            "Descripcion" => 'required|min:5|max:20',
+            "Precio" => 'required|numeric',
+            "imagen" => 'required|image',
+            "marca" => 'required',
+            "categoria"=> 'required'
+        ];
+
+        //crear el objeto validador
+
+        $v= Validator::make($request ->all() , $reglas );
+
+        //Validar 
+      if($v->fails()){
+        //Sila validacion falló
+        //redirigirme a la vista de create(ruta: productos/create)
+        return redirect('productos/create')
+                ->withErrors($v);
+      }else{
+        //examinar el archivo cargado
+
+        $archivo=$request->imagen;
+        //obtener el nombre original del archivo
+
+        $nombre_archivo = $archivo->getClientOriginalName();
+
+        //establecer la ubicación
+
+        $ruta=public_path()."/img";
+        //mover el archivo de imagen a la ubicacion y nombre deseados
+        $archivo->move($ruta , $nombre_archivo);
+
+        //Crear nuevo producto
         $p = new Producto();
         $p->nombre = $request->nombre;
         $p->Descripcion =$request->Descripcion;
         $p->Precio =$request->Precio;
         $p->marca_id=$request->marca;
         $p->categoria_id=$request->categoria;
+        $p->imagen = $nombre_archivo;
         //grabar productos
-        $p->save();
-        echo"Producto guardado";
+        $p-> save();
+        //redirigir a producto/create
+        //con un mensaje de exito
+        return redirect('productos/create')
+            ->with('mensaje', 'Producto registrado exactamente');
 
-    
+      };
     }
 
     /**
